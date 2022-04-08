@@ -2,8 +2,29 @@ import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaTelegramPlane } from "react-icons/fa";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_7h19y8f",
+      "template_yklczqn",
+      form.current,
+      "Qnkg031gvfxa-EtWb"
+    );
+    e.target.reset().then(
+      (result) => {
+        console.log('SUCCESS!', result.text);
+      },
+      (error) => {
+        alert(error.text);
+      }
+    );
+  };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -12,13 +33,13 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon"/>
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>alex@twocats.by</h5>
             <a href="mailto:alex@twocats.by">Send an email</a>
           </article>
           <article className="contact__option">
-            <FaFacebookMessenger className="contact__option-icon"/>
+            <FaFacebookMessenger className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>raznoglaz1y</h5>
             <a href="https://m.me/raznoglaz1y" target="_blank" rel="noreferrer">
@@ -26,16 +47,20 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <FaTelegramPlane className="contact__option-icon"/>
+            <FaTelegramPlane className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>@raznoglaz1y</h5>
-            <a href="https://telegram.me/raznoglaz1y" target="_blank" rel="noreferrer">
+            <a
+              href="https://telegram.me/raznoglaz1y"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
         </div>
         {/** END OF CONTACT OPTIONS */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -54,7 +79,9 @@ const Contact = () => {
             placeholder="Type Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">Send Message</button>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
