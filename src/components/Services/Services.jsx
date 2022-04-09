@@ -15,39 +15,31 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Brand system development.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Design system development.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Content strategy building.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Wireframing and Prototyping.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Mobile and Web UI Design.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>UX/UI Consulting services.</p>
             </li>
           </ul>
         </article>
@@ -60,37 +52,27 @@ const Services = () => {
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Web Page / Web Site design and development.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Landing Page design and development.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Application design and development.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Social media banners and banner ads.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Email templates design and development.</p>
             </li>
           </ul>
         </article>
@@ -103,37 +85,27 @@ const Services = () => {
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Print and web materials design and creation.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Tradeshow materials and merchandise materials.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Logo & Branding design and creating.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>Outdoor & Signage design and creating.</p>
             </li>
             <li>
               {" "}
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              {" "}
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+              <p>PowerPoint and Word templates design.</p>
             </li>
           </ul>
         </article>

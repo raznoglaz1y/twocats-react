@@ -36,10 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
-            reiciendis quas enim doloremque soluta quasi assumenda ut id natus,
-            autem nemo modi laborum neque reprehenderit ex praesentium vel earum
-            commodi.
+            Hi there, I'm Alex. I'm a member of the TWOCATS Design Studio. I design and build websites, also UX/UI and such content as logos, brand materials, and others corporate. I have a diverse set of skills, ranging from design to HTML + CSS + JavaScript and React JS, marketing and SEO. Together we'll make your project real and awesome.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

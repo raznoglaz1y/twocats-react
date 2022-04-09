@@ -33,7 +33,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -49,7 +49,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>React Native</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
           </div>
@@ -78,7 +78,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Adobe Ai</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -86,7 +86,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Developing</small>
               </div>
             </article>
             <article className="experience__details">
@@ -94,7 +94,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>MUI</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
           </div>
